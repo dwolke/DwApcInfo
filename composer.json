@@ -1,0 +1,30 @@
+{
+  "name": "dwolke/dw-apcinfo",
+  "description": "a simple apc-info module for ZF2.",
+  "type": "library",
+  "keywords": [
+    "zf2",
+    "zend",
+    "module"
+  ],
+  "homepage": "https://github.com/dwolke/DwApcInfo",
+  "authors": [
+    {
+      "name": "Daniel Wolkenhauer",
+      "email": "wiwoweb@gmail.com",
+      "homepage": "http://5people.de/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "zendframework/zendframework": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "DwApcInfo": "src/"
+    },
+    "classmap": [
+      "./Module.php"
+    ]
+  }
+}
