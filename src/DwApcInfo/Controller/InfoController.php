@@ -10,7 +10,6 @@ class InfoController extends AbstractActionController
 
   const CONTROLLER_NAME    = 'dwapcinfo';
 
-
   /**
    * Info page
    */
@@ -23,7 +22,7 @@ class InfoController extends AbstractActionController
 
     $err = '';
 
-    if(!function_exists('apc_cache_info') || !($cache=@apc_cache_info($cache_mode))) {
+    if (!function_exists('apc_cache_info') || !($cache=@apc_cache_info($cache_mode))) {
       $err = 'Keine Informationen zum Cache verfügbar. APC ist nicht installiert.';
       //exit;
     } else {

@@ -6,7 +6,6 @@ use Zend\ModuleManager\ModuleManager;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 //use Zend\ModuleManager\Feature\ServiceProviderInterface;
-use Zend\Stdlib\Hydrator\ClassMethods;
 
 class Module implements
   AutoloaderProviderInterface,
@@ -16,7 +15,6 @@ class Module implements
 
   public function getAutoloaderConfig()
   {
-
     return array(
       'Zend\Loader\ClassMapAutoloader' => array(
         __DIR__ . '/autoload_classmap.php',
