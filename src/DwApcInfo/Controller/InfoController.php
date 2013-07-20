@@ -21,9 +21,18 @@ class InfoController extends AbstractActionController
     //   return $this->redirect()->toRoute(static::ROUTE_LOGIN);
     // }
 
+    $err = '';
+
+    if(!function_exists('apc_cache_info') || !($cache=@apc_cache_info($cache_mode))) {
+      $err = 'Keine Informationen zum Cache verfügbar. APC ist nicht installiert.';
+      //exit;
+    } else {
+      $err = 'APC ist installiert und läuft.';
+    }
+
     return new ViewModel(
       array(
-        'Foo' => 'Bar',
+        'info_msg' => $err,
       ));
 
   }
