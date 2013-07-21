@@ -1,6 +1,11 @@
-DwApcInfo
-=======
-Version 0.0.1 created by Daniel Wolkenhauer
+#DwApcInfo
+
+[![Build Status](https://travis-ci.org/dwolke/DwApcInfo.png?branch=develop)](https://travis-ci.org/dwolke/DwApcInfo) [![Latest Unstable Version](https://poser.pugx.org/dwolke/dw-apcinfo/v/unstable.png)](https://packagist.org/packages/dwolke/dw-apcinfo) [![](http://stillmaintained.com/dwolke/DwApcInfo.png)](http://stillmaintained.com/dwolke/DwApcInfo)
+
+Version 0.0.1 created by [Daniel Wolkenhauer](http://dwolke.de)
+
+> NOTE: This code is used for testing purposses only, primarily for my playground. Use this at your own risk.
+
 
 Introduction
 ------------
