@@ -1,9 +1,9 @@
 <?php
 /**
  * DwApcInfo Module
- * 
+ *
  * Zeigt APC Cache Informationen an
- * 
+ *
  * @package    DwApcInfo
  * @author     Daniel Wolkenhauer <wiwoweb@gmail.com>
  * @copyright  Copyright (c) 2013 Daniel Wolkenhauer
@@ -21,7 +21,7 @@ use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 /**
  * module class
- * 
+ *
  * @package    DwApcInfo
  */
 class Module implements

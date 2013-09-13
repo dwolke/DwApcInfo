@@ -1,9 +1,9 @@
 <?php
 /**
  * DwApcInfo Module
- * 
+ *
  * module configuration
- * 
+ *
  * @package    DwApcInfo
  * @author     Daniel Wolkenhauer <wiwoweb@gmail.com>
  * @copyright  Copyright (c) 2013 Daniel Wolkenhauer

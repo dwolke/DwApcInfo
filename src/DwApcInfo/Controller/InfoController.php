@@ -1,7 +1,7 @@
 <?php
 /**
  * DwApcInfo Module
- * 
+ *
  * @package    DwApcInfo
  * @author     Daniel Wolkenhauer <wiwoweb@gmail.com>
  * @copyright  Copyright (c) 2013 Daniel Wolkenhauer
@@ -109,8 +109,8 @@ class InfoController extends AbstractActionController
    * @param integer $s
    * @return string
    */
-  private function bsize($s) {
-
+  private function bsize($s)
+  {
     foreach (array('','K','M','G') as $i => $k) {
       if ($s < 1024) break;
       $s/=1024;
@@ -130,8 +130,8 @@ class InfoController extends AbstractActionController
    */
 
 
-  private function duration($ts) {
-
+  private function duration($ts)
+  {
     //global $time;
 
     $time = time();
