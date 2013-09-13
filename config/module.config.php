@@ -1,4 +1,15 @@
 <?php
+/**
+ * DwApcInfo Module
+ * 
+ * module configuration
+ * 
+ * @package    DwApcInfo
+ * @author     Daniel Wolkenhauer <wiwoweb@gmail.com>
+ * @copyright  Copyright (c) 2013 Daniel Wolkenhauer
+ * @link       https://github.com/dwolke/DwApcInfo
+ * @version    0.0.1
+ */
 
 return array(
 

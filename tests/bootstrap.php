@@ -1,4 +1,10 @@
 <?php
+/**
+ * DwApcInfo Module (https://github.com/dwolke/DwApcInfo)
+ *
+ * @link https://github.com/dwolke/DwApcInfo for the canonical source repository
+ * @author  Daniel Wolkenhauer <wiwoweb@gmail.com>
+ */
 
 chdir(__DIR__);
 
