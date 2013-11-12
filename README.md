@@ -1,6 +1,7 @@
 #DwApcInfo
 
-[![Build Status](https://travis-ci.org/dwolke/DwApcInfo.png?branch=develop)](https://travis-ci.org/dwolke/DwApcInfo) [![Latest Unstable Version](https://poser.pugx.org/dwolke/dw-apcinfo/v/unstable.png)](https://packagist.org/packages/dwolke/dw-apcinfo) [![](http://stillmaintained.com/dwolke/DwApcInfo.png)](http://stillmaintained.com/dwolke/DwApcInfo)
+[![Build Status](https://travis-ci.org/dwolke/DwApcInfo.png?branch=develop)](https://travis-ci.org/dwolke/DwApcInfo) [![Latest Unstable Version](https://poser.pugx.org/dwolke/dw-apcinfo/v/unstable.png)](https://packagist.org/packages/dwolke/dw-apcinfo) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dwolke/dwapcinfo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+ [![](http://stillmaintained.com/dwolke/DwApcInfo.png)](http://stillmaintained.com/dwolke/DwApcInfo)
 
 Version 0.0.1 created by [Daniel Wolkenhauer](http://dwolke.de)
 
