@@ -56,3 +56,6 @@ Navigate to http://yourproject/apcinfo and you should land on the info page.
 
 
 ...
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dwolke/dwapcinfo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
